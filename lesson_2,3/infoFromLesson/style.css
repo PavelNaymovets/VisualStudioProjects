@@ -1,0 +1,63 @@
+p {
+    color: cornflowerblue;
+}
+
+h1 {
+    background-color: gray;
+}
+
+/*цвет закоголвков класса .heading*/
+.heading {
+    color: purple;
+}
+
+/*цвет фона закоголвков класса .heading*/
+.back-grey {
+    background-color: brown;
+}
+
+/*обращение к тегу и типу дынных в теге*/
+
+input[type="text"] {
+    color: red;
+}
+
+/*стили блока*/
+.class {
+    width: 90%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: gray;
+    background-image: url(https://lifehacker.ru/wp-content/uploads/2020/07/cat_1593712997.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*стили текста*/
+.heading_2 {
+    text-align: center;
+}
+
+.text {
+    color: blue;
+    font-family: serif;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/*группировка стилей*/
+.heading_2,
+.paragraph {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.heading_2 {
+    color: burlywood;
+}
+
+.paragraph {
+    color: yellow;
+}
