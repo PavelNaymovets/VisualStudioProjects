@@ -1,0 +1,50 @@
+.header__content {
+    border: 1px solid purple;
+}
+
+.site_menu {
+    border: 1px solid green;
+}
+
+.info_under_menu {
+    border: 1px solid blue;
+    width: 250px;
+}
+
+.help_client {
+    border: 1px solid purple;
+}
+
+.hc_list_help {
+    border: 1px solid green;
+}
+
+.hc_left_block {
+    border: 1px solid blue;
+    width: 150px;
+}
+
+.work_examples {
+    border: 1px solid red;
+}
+
+.footer {
+    border: 1px solid red;
+}
+
+.footer_top {
+    border: 1px solid yellow;
+}
+
+.footer_top_interested {
+    border: 1px solid red;
+    width: 250px;
+}
+
+.footer_bottom {
+    border: 1px solid yellow;
+}
+
+.footer_bottom_rights_reserved {
+    border: 1px solid red;
+}
