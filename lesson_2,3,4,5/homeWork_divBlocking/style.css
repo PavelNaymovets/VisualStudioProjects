@@ -1,3 +1,4 @@
+/*index style*/
 .header__content {
     border: 1px solid purple;
 }
@@ -47,4 +48,18 @@
 
 .footer_bottom_rights_reserved {
     border: 1px solid red;
+}
+
+/*contactsUs style*/
+
+.contacts-header {
+    border: 1px solid red;
+}
+
+.contacts-info {
+    border: 1px solid blue;
+}
+
+.form {
+    border: 1px solid black;
 }
