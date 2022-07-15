@@ -1,3 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+--------------------------------------------------------------------------------------------------------------------
+
 /*index style*/
 .header__content {
     border: 1px solid purple;
@@ -9,7 +29,21 @@
 
 .info_under_menu {
     border: 1px solid blue;
-    width: 250px;
+}
+
+.ium_heading {
+    display: block;
+    max-width: 510px;
+}
+
+.text_under_menu {
+    display: block;
+    max-width: 425px;
+}
+
+.hc_container {
+    align-items: center;
+    justify-content: center;
 }
 
 .help_client {
@@ -18,11 +52,14 @@
 
 .hc_list_help {
     border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.hc_left_block {
+.hc_block {
     border: 1px solid blue;
-    width: 150px;
+    width: 359px;
 }
 
 .work_examples {
@@ -33,21 +70,34 @@
     border: 1px solid red;
 }
 
+.footer_container {
+    align-items: center;
+    justify-content: center;
+}
+
 .footer_top {
     border: 1px solid yellow;
 }
 
 .footer_top_interested {
     border: 1px solid red;
-    width: 250px;
+    max-width: 340px;
 }
 
 .footer_bottom {
     border: 1px solid yellow;
 }
 
+.footer_info {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .footer_bottom_rights_reserved {
     border: 1px solid red;
+    max-width: 495px;
 }
 
 /*contactsUs style*/
@@ -58,6 +108,12 @@
 
 .contacts-info {
     border: 1px solid blue;
+}
+
+.form_for_contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .form {
