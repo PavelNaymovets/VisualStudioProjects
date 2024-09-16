@@ -171,3 +171,72 @@ input[type="text"] {
     font-size: 24px;
     color: red;
 }
+
+.block_123 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    float: left;
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
+.content_123 {
+    position: relative;
+}
+
+.item {
+    width: 105px;
+    height: 105px;
+    background-color: forestgreen;
+    position: absolute;
+}
+
+.item2 {
+    background-color: orange;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}
+
+.item3 {
+    background-color: darkblue;
+    top: 100px;
+    left: 100px;
+    z-index: -2;
+}
+
+.block123 {
+    height: 350px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.item123 {
+    height: 50px;
+    background-color: gray;
+    position: sticky;
+    top: 0px;
+}
+
+.header__1 {
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.menu__2 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.content__3 {
+    display: flex;
+    justify-content: space-around;
+}
