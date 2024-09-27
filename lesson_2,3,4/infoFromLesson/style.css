@@ -1,0 +1,173 @@
+p {
+    color: cornflowerblue;
+}
+
+h1 {
+    background-color: gray;
+}
+
+/*цвет закоголвков класса .heading*/
+.heading {
+    color: purple;
+}
+
+/*цвет фона закоголвков класса .heading*/
+.back-grey {
+    background-color: brown;
+}
+
+/*обращение к тегу и типу дынных в теге*/
+
+input[type="text"] {
+    color: red;
+}
+
+/*стили блока*/
+.class {
+    width: 90%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: gray;
+    background-image: url(https://lifehacker.ru/wp-content/uploads/2020/07/cat_1593712997.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*стили текста*/
+.heading_2 {
+    text-align: center;
+}
+
+.text {
+    color: blue;
+    font-family: serif;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/*группировка стилей*/
+.heading_2,
+.paragraph {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.heading_2 {
+    color: burlywood;
+}
+
+.paragraph {
+    color: yellow;
+}
+
+/*Схлопывание. Внешние и внутренние отступы формируются от границы*/
+.heading_4 {
+    margin-top: 50px;
+}
+
+.block {
+    border: 1px solid black;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 48px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.block_1 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    float: left;
+}
+
+/*clear - делает видимым границы другого блока для текущего блока*/
+.footer_1 {
+    height: 50px;
+    background-color: grey;
+    clear: both;
+}
+
+/*overflow - скрывает наложение одного блока на другой*/
+.heading_5 {
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+/*при наведении ссылка становится красной*/
+.menu__link:hover {
+    color: red;
+}
+
+/*active сейчас не применяется*/
+.menu__link:active {
+    color: green;
+}
+
+.menu__list {
+    list-style-type: none;
+    border: 1px solid black;
+    width: 200px;
+    height: 35px;
+    /*Позволяет центрировать только 1 строку*/
+    line-height: 35px;
+    text-align: center;
+}
+
+.menu__list:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu__list:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu__list:hover .menu__link {
+    text-decoration: none;
+}
+
+.menu__li:nth-child(3)::after {
+    content: ' super new';
+    color: red;
+}
+
+.menu__li:before {
+    content: '* ';
+    color: orange;
+}
+
+.menu_1 {
+    list-style-type: none;
+}
+
+/*добавляю стрелки при наведении*/
+.menu__li:hover::after {
+    content: ' <<';
+}
+
+.product {
+    width: 250px;
+    border: 1px solid black;
+}
+
+/*Добавление контента через подкласс и всевдоэлемент*/
+.product__new::after {
+    content: 'new';
+    text-transform: uppercase;
+    color: red;
+}
+
+.product__img {
+    height: 150px;
+    background-color: forestgreen;
+}
+
+.text::first-letter {
+    font-size: 24px;
+    color: red;
+}
